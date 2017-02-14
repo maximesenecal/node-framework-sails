@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  //localDiskDb: {
-  //  adapter: 'sails-disk'
-  //},
+  //  localDiskDb: {
+  //    adapter: 'sails-disk'
+  //  },
 
   /***************************************************************************
   *                                                                          *
@@ -62,7 +62,7 @@ module.exports.connections = {
      port: 11472,
      user: 'maximesenecal', //optional
      password: 'ELZsT0ljt747', //optional
-     // database: 'your_mongo_db_name_here' //optional
+     database: 'heroku_n2rdh20m' //optional
    }
 
   /***************************************************************************
