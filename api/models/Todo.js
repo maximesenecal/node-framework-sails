@@ -16,6 +16,10 @@ module.exports = {
     complete: {
       type: 'boolean',
       defaultsTo: false
+    },
+    author : {
+      type:'string',
+      defaultsTo: 'Anonymous'
     }
   }
 };
